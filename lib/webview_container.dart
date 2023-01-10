@@ -96,7 +96,7 @@ class _WebViewContainerState extends State<WebViewContainer> {
   var _title;
   var _url_p;
   final _key = UniqueKey();
-  bool isLoading = true;
+  bool isLoading = false;
   @override
   _WebViewContainerState(this._url, this._title, this._url_p);
 
